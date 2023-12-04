@@ -8,3 +8,14 @@ I had trouble at fist connecting with SSH to the first instance i made. i had th
 I searched the internet for help, but after 5 minutes I gave up. I just decided to delete the instance and then recreate it in the same region and zone.
 Guess what? It worked. I was shocked.
 Now in with Fedora I started by typing pwd and found i was in /home/me. I messed around after looking up basic fedora commands.
+
+I first looked up apt vs dnf code defferneces and the google ai automatically poped up a wordpress and linux install. 
+
+I ignored the site but came back to it after looking up apache fedora install and the site was there again. because it has been about the same up to this point for updating the dnf similar to apt I am hoping this goes smooth.
+
+I am treating this more like a blog/ notes i do hope that's what it is supposed to be. 
+
+Site link here: https://www.liquidweb.com/kb/how-to-install-wordpress-on-linux-almalinux/
+
+It is for AlmaLinux so we shall see how much or if it messes this up.
+
