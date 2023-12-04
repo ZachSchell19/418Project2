@@ -21,3 +21,7 @@ It is for AlmaLinux so we shall see how much or if it messes this up.
 
 It is taking a long time to update.
 
+Got the dnf updated and then proceded to try and connect and it was the default page. I folled the same instructions from the lesson plans to make a new index for myself to make sure it would change.
+
+Now onto installing php and then the database.
+
