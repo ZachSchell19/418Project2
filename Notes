@@ -25,3 +25,12 @@ Got the dnf updated and then proceded to try and connect and it was the default 
 
 Now onto installing php and then the database.
 
+I have got the mariadb installed on my VM and that one was fairly simple and about the exaact same as before. PHP i struggled with
+I intsalled the php library and dependinces and then had to go back and install these seperatly "[~]$ sudo dnf install php-gd php-curl php-pecl-imagick php-pecl-zip libzip"
+
+I then restarted the httpd and checked my php and mariadb version and status to make sure it was all running. all good so far.
+
+So installing wordpresss was fairly similar and gave me, at first, hope. Thed i found out i had to sintall the wget command becasue i could not find a way around it without physically downloading the files. 
+There is probalbly another ssimple way but installing wget wasnt difficult wither it is the same as installing other packages. I got the site up and rinnuing and for the ownership I found out that instead of the www-data it is 'apache'. 
+
+I did have to use google for the last bit to research and I was nervous making the wordpress instal hoping the test site would load properly. All done now wwith Part 2 and onto part3 :)
