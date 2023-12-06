@@ -1,5 +1,7 @@
 # Pproject 3 Load Balancer
 
+# Day1
+
 ### starting with gcload
 - I first tested the first two gclod commands in the video provided to make sure i was in the right shell.
 - I found it neat i couldnt use gcloud commands if I was editing in a VM as well.
@@ -74,4 +76,13 @@
 -The main only change I had to do was figure out a zone and region and i stuck with the ones that were on my VM's already and also the \ just doesnt work, at all. it has to be ^ or more easy is to just continue on the same line with a space the the '--'. 
 -I have 2 insances in my lb-backend-group and they both say running but not healthy. Ive looked it up, Ive waited, Im now just thinking this is why large corporations besides google rarely use google, I get the use of google here, that was a diss on how I dislike google as a whole. 
 - I waited an hour an refreshed and still not healthy. I am going to lookup how to fix health on them.
+- Using
+  ```
+  gcloud compute instance-groups set-named-ports lb-backend-group --named-ports http:80 --zone northamerica-northeast2-a
+ I was able to set the ports to 80 so thats 1/2 of the problem however the health still has a caution sign while both are running.
+ - now for some reason without changing anthing one of my two backend groups went down.
+ - it has been restarting and verfing and then restarting again for over an hour. I decided to restart both of them in the group becasue i would have to remove and readd otherwise and now both wont pop back up.
 
+I might have to go back an title this section as Day 1 and below here will be Second and last try. I am taking screenshots of everything up until now and they will be in the word for refrence of whhat not to do. 
+
+#Day 2
