@@ -83,6 +83,11 @@
  - now for some reason without changing anthing one of my two backend groups went down.
  - it has been restarting and verfing and then restarting again for over an hour. I decided to restart both of them in the group becasue i would have to remove and readd otherwise and now both wont pop back up.
 
-I might have to go back an title this section as Day 1 and below here will be Second and last try. I am taking screenshots of everything up until now and they will be in the word for refrence of whhat not to do. 
+I might have to go back an title this section as Day 1 and below here will be Second and last try. I am taking screenshots of everything up until now and they will be in the word for refrence of what not to do. - goodnight
 
-#Day 2
+# Day 2
+
+##### My plan for this is to delete and restart. I now know the commands better and I am going to give it a second go. I feel more confident and lets not lose this hope
+- To not lose hope- I am going to be getting rid of everything except the first 2 projects- just to start fresh.
+- 
+- 
