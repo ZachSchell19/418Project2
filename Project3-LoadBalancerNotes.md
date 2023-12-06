@@ -1,6 +1,6 @@
 # Pproject 3 Load Balancer
 
-# Day1
+# Attempt 1
 
 ### starting with gcload
 - I first tested the first two gclod commands in the video provided to make sure i was in the right shell.
