@@ -83,11 +83,14 @@
  - now for some reason without changing anthing one of my two backend groups went down.
  - it has been restarting and verfing and then restarting again for over an hour. I decided to restart both of them in the group becasue i would have to remove and readd otherwise and now both wont pop back up.
 
-I might have to go back an title this section as Day 1 and below here will be Second and last try. I am taking screenshots of everything up until now and they will be in the word for refrence of what not to do. - goodnight
+I might have to go back an title this section as Part1 and below here will be Second try. I am taking screenshots of everything up until now and they will be in the word for refrence of what not to do. 
 
-# Day 2
+# Attempt 2
 
 ##### My plan for this is to delete and restart. I now know the commands better and I am going to give it a second go. I feel more confident and lets not lose this hope
 - To not lose hope- I am going to be getting rid of everything except the first 2 projects- just to start fresh.
 - 
-- 
+- for making the 3 instances this was my code
+``` gcloud compute instances create wwwlb1 --tags=network-lb-tag --machine-type=e2-small --image-family=debian-11 --image-project=debian-cloud --metadata=startup-script="#!/bin/bash; apt-get update; apt-get install apache2 -y; service apache2 restart; echo '<h3>Web Server: wwwlb1</h3>' > /var/www/html/index.html" ```
+- so far I have ran into more problems and I am including screenshots in Errors section on the document to help try and explain becasue my response was unclear when i tried my best to explain and no point when this is me following instructions and documenting. I apologize for any crude note taking on this project, it has been more headaches than fun when this class has been fun. I wont sugar coat anything I have tried to recreate the instances using single line becasue the format of multiline provided didnt work and when i used multiline of ^ it worked 80% of the time. Single line seemed to work to get them running as provided in a picture in the word doc however the website had no notice of several of them and the ones that were deleted still appearing on there. I will maybe try in the morning refreshing before i finalize and just submit this becasue I do not know what to do, Google and external resources have not helped in providing aide and I am to stressed to do more without breaking my machine for the time being.
+- I wanted to try one more thing before getting away from this for tonight and to go in and i apparently dont have permissions on my own VM's
